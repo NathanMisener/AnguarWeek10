@@ -1,0 +1,11 @@
+.highlightRed{
+    background-color: red;
+    color: white;
+}
+.highlightGreen{
+    background-color: green;
+}
+
+.hidden{
+    display: none;
+}

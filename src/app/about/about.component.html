@@ -1,0 +1,27 @@
+<h1 *ngIf="favNumber">My favourite Number is {{favNumber}}</h1>
+<h1 *ngIf="foodItem">YUUUUUUUUMMMMYYY I love {{foodItem}}</h1>
+
+
+
+<img src="https://cdn.britannica.com/47/188747-050-1D34E743/Bill-Gates-2011.jpg">
+
+
+
+<div>
+    <h1>Live Posts</h1>
+
+    <table border="1">
+    <tr>
+        <th>ID</th>
+        <th>User ID</th>
+        <th>Title</th>
+        <th>Body</th>
+    </tr>
+    <tr *ngFor="let post of posts">
+        <td>{{post.id}}</td>
+        <td>{{post.userId}}</td>
+        <td>{{post.title}}</td>
+        <td>{{post.body}}</td>
+    </tr>
+    </table>
+</div>
